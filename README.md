@@ -8,6 +8,13 @@ Docker to build images
 in `pom.xml` change the AppDynamics information according to your environment.
 Copy a java agent into the folder `artifact/javaagent`
 
+    ├── artifacts
+    │   └── javaagent
+    │       ├── conf 
+    │       ├── multi-release
+    │       ├── otel
+    │       └── ver25.3.0.36936
+
 ## Building
 `mvn clean install`
 This creates the jar file in ./target
