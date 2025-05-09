@@ -9,11 +9,16 @@ in `pom.xml` change the AppDynamics information according to your environment.
 Copy a java agent into the folder `artifact/javaagent`
 
     ├── artifacts
-    │   └── javaagent
-    │       ├── conf 
-    │       ├── multi-release
-    │       ├── otel
-    │       └── ver25.3.0.36936
+    │   ├── javaagent
+    │   │   ├── conf
+    │   │   ├── javaagent.jar
+    │   │   ├── javaagent.jar.asc
+    │   │   ├── multi-release
+    │   │   ├── otel
+    │   │   ├── readme.txt
+    │   │   ├── readme.txt.asc
+    │   │   └── ver25.3.0.36936
+    │   └── readme.txt
 
 ## Building
 `mvn clean install`
