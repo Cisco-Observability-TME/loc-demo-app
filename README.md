@@ -5,7 +5,7 @@ Java 17 and maven installed
 Docker to build images
 
 ## General
-in `pom.xml`and `docker/Dockerfile`change the AppDynamics information according to your environment.
+in `pom.xml` change the AppDynamics information according to your environment.
 Copy a java agent into the folder `artifact/javaagent`
 
 ## Building
