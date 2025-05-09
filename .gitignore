@@ -1,3 +1,10 @@
+.vscode
+
+# Directories
+target/
+artifacts/javaagent
+
+
 # Compiled class file
 *.class
 
